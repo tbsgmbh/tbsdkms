@@ -1,0 +1,8 @@
+PACKAGE_NAME=tbsdkms
+PACKAGE_VERSION=20210104
+
+MAKE="sh make.sh"
+CLEAN="sh clean.sh"
+
+AUTOINSTALL=yes
+REMAKE_INITRD=yes
