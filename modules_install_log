@@ -1,0 +1,625 @@
+tbs@tbs-OneBox:~/media_build$ sudo make install
+[sudo] password for tbs: 
+make -C /home/tbs/media_build/v4l install
+make[1]: Entering directory '/home/tbs/media_build/v4l'
+-e 
+Removing obsolete files from /lib/modules/5.8.0-36-generic/kernel/drivers/media/common:
+
+
+-e 
+Removing old /lib/modules/5.8.0-36-generic/kernel/drivers/media/pci/cx23885 files:
+altera-ci.ko cx23885.ko 
+-e 
+Removing old /lib/modules/5.8.0-36-generic/kernel/drivers/media/pci/meye files:
+meye.ko 
+-e 
+Removing old /lib/modules/5.8.0-36-generic/kernel/drivers/media/usb/pwc files:
+pwc.ko 
+-e 
+Removing old /lib/modules/5.8.0-36-generic/kernel/drivers/media/firewire files:
+firedtv.ko 
+-e 
+Removing old /lib/modules/5.8.0-36-generic/kernel/drivers/media/pci/pluto2 files:
+pluto2.ko 
+-e 
+Removing old /lib/modules/5.8.0-36-generic/kernel/drivers/media/usb/gspca/stv06xx files:
+gspca_stv06xx.ko 
+-e 
+Removing old /lib/modules/5.8.0-36-generic/kernel/drivers/media/mmc/siano files:
+smssdio.ko 
+-e 
+Removing old /lib/modules/5.8.0-36-generic/kernel/drivers/media/radio/si470x files:
+radio-si470x-usb.ko radio-si470x-i2c.ko radio-si470x-common.ko 
+-e 
+Removing old /lib/modules/5.8.0-36-generic/kernel/drivers/media/pci/smipcie files:
+smipcie.ko 
+-e 
+Removing old /lib/modules/5.8.0-36-generic/kernel/drivers/media/test-drivers/vimc files:
+vimc.ko 
+-e 
+Removing old /lib/modules/5.8.0-36-generic/kernel/drivers/media/pci/ngene files:
+ngene.ko 
+-e 
+Removing old /lib/modules/5.8.0-36-generic/kernel/drivers/media/rc files:
+ir-sony-decoder.ko serial_ir.ko winbond-cir.ko imon.ko ir-jvc-decoder.ko xbox_remote.ko imon_raw.ko ir-xmp-decoder.ko mceusb.ko streamzap.ko ir-nec-decoder.ko rc-loopback.ko redrat3.ko ene_ir.ko ir-rc5-decoder.ko ir-sanyo-decoder.ko fintek-cir.ko rc-core.ko ir-imon-decoder.ko iguanair.ko ir-sharp-decoder.ko igorplugusb.ko ttusbir.ko ir-rc6-decoder.ko ir-rcmm-decoder.ko ir-mce_kbd-decoder.ko sir_ir.ko ati_remote.ko ite-cir.ko nuvoton-cir.ko 
+-e 
+Removing old /lib/modules/5.8.0-36-generic/kernel/drivers/media/usb/uvc files:
+uvcvideo.ko 
+-e 
+Removing old /lib/modules/5.8.0-36-generic/kernel/drivers/media/common files:
+tveeprom.ko cx2341x.ko cypress_firmware.ko 
+-e 
+Removing old /lib/modules/5.8.0-36-generic/kernel/drivers/media/dvb-frontends/cxd2880 files:
+cxd2880.ko 
+-e 
+Removing old /lib/modules/5.8.0-36-generic/kernel/drivers/media/pci/pt1 files:
+earth-pt1.ko 
+-e 
+Removing old /lib/modules/5.8.0-36-generic/kernel/drivers/media/usb/pvrusb2 files:
+pvrusb2.ko 
+-e 
+Removing old /lib/modules/5.8.0-36-generic/kernel/drivers/media/usb/hackrf files:
+hackrf.ko 
+-e 
+Removing old /lib/modules/5.8.0-36-generic/kernel/drivers/media/i2c files:
+st-mipid02.ko mt9v111.ko saa7115.ko tda9840.ko ov2680.ko tc358743.ko ov13858.ko tvp5150.ko bt856.ko imx355.ko cs5345.ko sony-btf-mpx.ko dw9807-vcm.ko adp1653.ko adv7842.ko ks0127.ko imx274.ko sr030pc30.ko ov7670.ko saa7127.ko vpx3220.ko s5k6aa.ko tea6415c.ko ths7303.ko saa717x.ko tda1997x.ko ov2659.ko lm3646.ko uda1342.ko s5k4ecgx.ko tvp7002.ko s5k6a3.ko ml86v7667.ko ov2685.ko ov7251.ko max2175.ko m52790.ko bt819.ko ov772x.ko imx290.ko ov2740.ko saa6752hs.ko tw9906.ko ov2640.ko noon010pc30.ko saa7110.ko ov8856.ko imx319.ko aptina-pll.ko adv7183.ko adv7511-v4l2.ko cs3308.ko mt9p031.ko mt9m111.ko ov5647.ko vs6624.ko wm8739.ko tvaudio.ko tw9910.ko mt9v011.ko wm8775.ko ir-kbd-i2c.ko adv7180.ko ak881x.ko ths8200.ko adv7170.ko ov5670.ko imx219.ko adv7604.ko ov9650.ko ak7375.ko hi556.ko mt9t112.ko ad9389b.ko cs53l32a.ko ov7640.ko ov7740.ko mt9t001.ko saa7185.ko msp3400.ko adv7393.ko upd64031a.ko rj54n1cb0c.ko mt9m032.ko ov5675.ko dw9714.ko video-i2c.ko imx214.ko vp27smpx.ko saa6588.ko mt9m001.ko tvp514x.ko tlv320aic23b.ko mt9v032.ko adv7175.ko ov6650.ko tw2804.ko imx258.ko tw9903.ko ad5820.ko bt866.ko adv7343.ko s5k5baf.ko tea6420.ko ov9640.ko ov5695.ko upd64083.ko lm3560.ko tda7432.ko 
+-e 
+Removing old /lib/modules/5.8.0-36-generic/kernel/drivers/media/usb/airspy files:
+airspy.ko 
+-e 
+Removing old /lib/modules/5.8.0-36-generic/kernel/drivers/media/pci/dt3155 files:
+dt3155.ko 
+-e 
+Removing old /lib/modules/5.8.0-36-generic/kernel/drivers/media/pci/saa7146 files:
+hexium_gemini.ko hexium_orion.ko mxb.ko 
+-e 
+Removing old /lib/modules/5.8.0-36-generic/kernel/drivers/media/usb/stkwebcam files:
+stkwebcam.ko 
+-e 
+Removing old /lib/modules/5.8.0-36-generic/kernel/drivers/media/cec/usb/pulse8 files:
+pulse8-cec.ko 
+-e 
+Removing old /lib/modules/5.8.0-36-generic/kernel/drivers/media/../misc/altera-stapl files:
+altera-stapl.ko 
+-e 
+Removing old /lib/modules/5.8.0-36-generic/kernel/drivers/media/radio/wl128x files:
+fm_drv.ko 
+-e 
+Removing old /lib/modules/5.8.0-36-generic/kernel/drivers/media/usb/gspca files:
+gspca_pac7311.ko gspca_sq930x.ko gspca_cpia1.ko gspca_jeilinj.ko gspca_stk1135.ko gspca_spca501.ko gspca_tv8532.ko gspca_kinect.ko gspca_spca505.ko gspca_se401.ko gspca_touptek.ko gspca_sonixj.ko gspca_sunplus.ko gspca_main.ko gspca_spca561.ko gspca_etoms.ko gspca_sq905.ko gspca_stk014.ko gspca_finepix.ko gspca_xirlink_cit.ko gspca_zc3xx.ko gspca_stv0680.ko gspca_sonixb.ko gspca_vicam.ko gspca_vc032x.ko gspca_sn9c2028.ko gspca_spca508.ko gspca_pac7302.ko gspca_pac207.ko gspca_mr97310a.ko gspca_nw80x.ko gspca_spca506.ko gspca_topro.ko gspca_sq905c.ko gspca_jl2005bcd.ko gspca_spca1528.ko gspca_konica.ko gspca_ov534.ko gspca_benq.ko gspca_spca500.ko gspca_ov519.ko gspca_mars.ko gspca_conex.ko gspca_t613.ko gspca_ov534_9.ko gspca_sn9c20x.ko gspca_dtcs033.ko 
+-e 
+Removing old /lib/modules/5.8.0-36-generic/kernel/drivers/media/../staging/media/atomisp/i2c/ov5693 files:
+atomisp-ov5693.ko 
+-e 
+Removing old /lib/modules/5.8.0-36-generic/kernel/drivers/media/cec/platform/cros-ec files:
+cros-ec-cec.ko 
+-e 
+Removing old /lib/modules/5.8.0-36-generic/kernel/drivers/media/pci/cobalt files:
+cobalt.ko 
+-e 
+Removing old /lib/modules/5.8.0-36-generic/kernel/drivers/media/usb/em28xx files:
+em28xx-dvb.ko em28xx-v4l.ko em28xx.ko em28xx-alsa.ko em28xx-rc.ko 
+-e 
+Removing old /lib/modules/5.8.0-36-generic/kernel/drivers/media/common/videobuf2 files:
+videobuf2-vmalloc.ko videobuf2-dvb.ko videobuf2-memops.ko videobuf2-dma-sg.ko videobuf2-dma-contig.ko videobuf2-v4l2.ko videobuf2-common.ko 
+-e 
+Removing old /lib/modules/5.8.0-36-generic/kernel/drivers/media/usb/zr364xx files:
+zr364xx.ko 
+-e 
+Removing old /lib/modules/5.8.0-36-generic/kernel/drivers/media/usb/siano files:
+smsusb.ko 
+-e 
+Removing old /lib/modules/5.8.0-36-generic/kernel/drivers/media/tuners files:
+r820t.ko tda18271.ko tuner-simple.ko tda827x.ko mxl301rf.ko e4000.ko mxl5007t.ko si2157.ko tda18250.ko mt2060.ko tda18212.ko tua9001.ko mc44s803.ko mt2266.ko mt2131.ko tda8290.ko tda9887.ko fc0012.ko qm1d1c0042.ko xc5000.ko tea5767.ko tda18218.ko it913x.ko xc4000.ko qm1d1b0004.ko mt20xx.ko mxl5005s.ko max2165.ko tuner-types.ko m88rs6000t.ko fc0013.ko tuner-xc2028.ko fc2580.ko msi001.ko qt1010.ko tea5761.ko mt2063.ko fc0011.ko 
+-e 
+Removing old /lib/modules/5.8.0-36-generic/kernel/drivers/media/../staging/media/ipu3 files:
+ipu3-imgu.ko 
+-e 
+Removing old /lib/modules/5.8.0-36-generic/kernel/drivers/media/usb/cx231xx files:
+cx231xx.ko cx231xx-alsa.ko 
+-e 
+Removing old /lib/modules/5.8.0-36-generic/kernel/drivers/media/usb/dvb-usb-v2 files:
+dvb-usb-anysee.ko dvb-usb-af9015.ko mxl111sf-tuner.ko dvb-usb-mxl111sf.ko mxl111sf-demod.ko dvb-usb-au6610.ko dvb_usb_v2.ko dvb-usb-gl861.ko zd1301.ko dvb-usb-rtl28xxu.ko dvb-usb-dvbsky.ko dvb-usb-lmedm04.ko dvb-usb-az6007.ko dvb-usb-af9035.ko dvb-usb-ce6230.ko dvb-usb-ec168.ko 
+-e 
+Removing old /lib/modules/5.8.0-36-generic/kernel/drivers/media/pci/tw686x files:
+tw686x.ko 
+-e 
+Removing old /lib/modules/5.8.0-36-generic/kernel/drivers/media/pci/tw68 files:
+tw68.ko 
+-e 
+Removing old /lib/modules/5.8.0-36-generic/kernel/drivers/media/pci/netup_unidvb files:
+netup-unidvb.ko 
+-e 
+Removing old /lib/modules/5.8.0-36-generic/kernel/drivers/media/pci/cx25821 files:
+cx25821.ko cx25821-alsa.ko 
+-e 
+Removing old /lib/modules/5.8.0-36-generic/kernel/drivers/media/usb/ttusb-dec files:
+ttusbdecfe.ko ttusb_dec.ko 
+-e 
+Removing old /lib/modules/5.8.0-36-generic/kernel/drivers/media/mc files:
+mc.ko 
+-e 
+Removing old /lib/modules/5.8.0-36-generic/kernel/drivers/media/i2c/s5c73m3 files:
+s5c73m3.ko 
+-e 
+Removing old /lib/modules/5.8.0-36-generic/kernel/drivers/media/usb/ttusb-budget files:
+dvb-ttusb-budget.ko 
+-e 
+Removing old /lib/modules/5.8.0-36-generic/kernel/drivers/media/usb/cpia2 files:
+cpia2.ko 
+-e 
+Removing old /lib/modules/5.8.0-36-generic/kernel/drivers/media/common/saa7146 files:
+saa7146_vv.ko saa7146.ko 
+-e 
+Removing old /lib/modules/5.8.0-36-generic/kernel/drivers/media/pci/tw5864 files:
+tw5864.ko 
+-e 
+Removing old /lib/modules/5.8.0-36-generic/kernel/drivers/media/usb/gspca/m5602 files:
+gspca_m5602.ko 
+-e 
+Removing old /lib/modules/5.8.0-36-generic/kernel/drivers/media/usb/tm6000 files:
+tm6000-alsa.ko tm6000-dvb.ko tm6000.ko 
+-e 
+Removing old /lib/modules/5.8.0-36-generic/kernel/drivers/media/dvb-core files:
+dvb-core.ko 
+-e 
+Removing old /lib/modules/5.8.0-36-generic/kernel/drivers/media/usb/s2255 files:
+s2255drv.ko 
+-e 
+Removing old /lib/modules/5.8.0-36-generic/kernel/drivers/media/radio/si4713 files:
+radio-usb-si4713.ko si4713.ko radio-platform-si4713.ko 
+-e 
+Removing old /lib/modules/5.8.0-36-generic/kernel/drivers/media/rc/keymaps files:
+rc-avermedia-rm-ks.ko rc-msi-digivox-ii.ko rc-fusionhdtv-mce.ko rc-norwood.ko rc-it913x-v2.ko rc-pinnacle-color.ko rc-npgtech.ko rc-vega-s9x.ko rc-terratec-slim-2.ko rc-avermedia-m733a-rm-k6.ko rc-hisi-poplar.ko rc-su3000.ko rc-real-audio-220-32-keys.ko rc-encore-enltv.ko rc-kaiomy.ko rc-rc6-mce.ko rc-dvico-mce.ko rc-msi-tvanywhere.ko rc-medion-x10-digitainer.ko rc-winfast-usbii-deluxe.ko rc-dib0700-nec.ko rc-tanix-tx3mini.ko rc-astrometa-t2hybrid.ko rc-kworld-pc150u.ko rc-pv951.ko rc-total-media-in-hand-02.ko rc-terratec-cinergy-xs.ko rc-dntv-live-dvb-t.ko rc-behold-columbus.ko rc-wetek-hub.ko rc-lme2510.ko rc-imon-pad.ko rc-anysee.ko rc-alink-dtu-m.ko rc-khadas.ko rc-encore-enltv-fm53.ko rc-terratec-slim.ko rc-videomate-tv-pvr.ko rc-avermedia-dvbt.ko rc-snapstream-firefly.ko rc-tt-1500.ko rc-kworld-plus-tv-analog.ko rc-xbox-dvd.ko rc-gotview7135.ko rc-cec.ko rc-evga-indtube.ko rc-gadmei-rm008z.ko rc-kworld-315u.ko rc-ati-tv-wonder-hd-600.ko rc-dtt200u.ko rc-pctv-sedna.ko rc-apac-viewcomp.ko rc-budget-ci-old.ko rc-ati-x10.ko rc-twinhan-dtv-cab-ci.ko rc-winfast.ko rc-pixelview-002t.ko rc-d680-dmb.ko rc-eztv.ko rc-videomate-m1f.ko rc-pixelview-new.ko rc-nec-terratec-cinergy-xs.ko rc-em-terratec.ko rc-total-media-in-hand.ko rc-powercolor-real-angel.ko rc-hisi-tv-demo.ko rc-medion-x10-or2x.ko rc-leadtek-y04g0051.ko rc-proteus-2309.ko rc-dntv-live-dvbt-pro.ko rc-azurewave-ad-tu700.ko rc-technisat-ts35.ko rc-twinhan1027.ko rc-dib0700-rc5.ko rc-msi-tvanywhere-plus.ko rc-avermedia.ko rc-dvbsky.ko rc-manli.ko rc-pixelview-mk12.ko rc-imon-rsc.ko rc-hauppauge.ko rc-odroid.ko rc-medion-x10.ko rc-dvico-portable.ko rc-asus-ps3-100.ko rc-tbs-nec.ko rc-dm1105-nec.ko rc-flyvideo.ko rc-streamzap.ko rc-pixelview.ko rc-zx-irdec.ko rc-iodata-bctv7e.ko rc-msi-digivox-iii.ko rc-adstech-dvb-t-pci.ko rc-genius-tvgo-a11mce.ko rc-terratec-cinergy-s2-hd.ko rc-it913x-v1.ko rc-wetek-play2.ko rc-flydvb.ko rc-imon-mce.ko rc-pinnacle-pctv-hd.ko rc-cinergy-1400.ko rc-tevii-nec.ko rc-cinergy.ko rc-beelink-gs1.ko rc-avertv-303.ko rc-behold.ko rc-nebula.ko rc-tivo.ko rc-tango.ko rc-avermedia-cardbus.ko rc-tanix-tx5max.ko rc-avermedia-m135a.ko rc-asus-pc39.ko rc-pinnacle-grey.ko rc-terratec-cinergy-c-pci.ko rc-purpletv.ko rc-x96max.ko rc-digittrade.ko rc-digitalnow-tinytwin.ko rc-videostrong-kii-pro.ko rc-reddo.ko rc-delock-61959.ko rc-encore-enltv2.ko rc-trekstor.ko rc-geekbox.ko rc-videomate-s350.ko rc-technisat-usb2.ko rc-avermedia-a16d.ko 
+-e 
+Removing old /lib/modules/5.8.0-36-generic/kernel/drivers/media/dvb-frontends files:
+s5h1411.ko gp8psk-fe.ko rtl2832.ko si2168.ko dib7000m.ko nxt200x.ko dib3000mb.ko rtl2832_sdr.ko isl6421.ko zl10353.ko af9013.ko sp887x.ko cx22702.ko mn88473.ko drxk.ko stv0900.ko drxd.ko stv0297.ko si21xx.ko si2165.ko tda10086.ko zl10036.ko tda826x.ko itd1000.ko ec100.ko ds3000.ko tda8083.ko helene.ko au8522_decoder.ko dibx000_common.ko stb0899.ko cx24123.ko lgdt3306a.ko stv6110x.ko m88ds3103.ko ix2505v.ko mt352.ko cxd2841er.ko ts2020.ko or51211.ko tc90522.ko au8522_dig.ko isl6405.ko bcm3510.ko cx24110.ko lnbp22.ko zd1301_demod.ko mn88472.ko mb86a16.ko tda10023.ko lg2160.ko cx24113.ko stv6111.ko stv6110.ko m88rs2000.ko rtl2830.ko nxt6000.ko dib3000mc.ko cx22700.ko sp2.ko atbm8830.ko or51132.ko stb6100.ko cx24120.ko lnbp21.ko au8522_common.ko af9033.ko dib0070.ko ves1820.ko stv0367.ko s5h1409.ko mb86a20s.ko s5h1432.ko lgs8gl5.ko lgdt3305.ko dvb_dummy_fe.ko lnbh29.ko horus3a.ko a8293.ko mt312.ko tda10071.ko dib0090.ko s5h1420.ko stv0288.ko ascot2e.ko ves1x93.ko lgdt330x.ko tda665x.ko stb6000.ko mxl5xx.ko cx24117.ko cx24116.ko cxd2099.ko lgs8gxx.ko tda1004x.ko tua6100.ko stv0910.ko sp8870.ko as102_fe.ko l64781.ko tda18271c2dd.ko dvb-pll.ko stv090x.ko isl6423.ko cxd2820r.ko lnbh25.ko stv0299.ko s921.ko dib7000p.ko dib9000.ko tda10048.ko tda10021.ko mn88443x.ko tda8261.ko dib8000.ko zl10039.ko 
+-e 
+Removing old /lib/modules/5.8.0-36-generic/kernel/drivers/media/i2c/et8ek8 files:
+et8ek8.ko 
+-e 
+Removing old /lib/modules/5.8.0-36-generic/kernel/drivers/media/pci/bt8xx files:
+dvb-bt8xx.ko bttv.ko dst_ca.ko bt878.ko dst.ko 
+-e 
+Removing old /lib/modules/5.8.0-36-generic/kernel/drivers/media/pci/b2c2 files:
+b2c2-flexcop-pci.ko 
+-e 
+Removing old /lib/modules/5.8.0-36-generic/kernel/drivers/media/dvb-frontends/drx39xyj files:
+drx39xyj.ko 
+-e 
+Removing old /lib/modules/5.8.0-36-generic/kernel/drivers/media/pci/saa7134 files:
+saa7134-empress.ko saa7134-alsa.ko saa7134.ko saa7134-dvb.ko saa7134-go7007.ko 
+-e 
+Removing old /lib/modules/5.8.0-36-generic/kernel/drivers/media/pci/intel/ipu3 files:
+ipu3-cio2.ko 
+-e 
+Removing old /lib/modules/5.8.0-36-generic/kernel/drivers/media/test-drivers/vicodec files:
+vicodec.ko 
+-e 
+Removing old /lib/modules/5.8.0-36-generic/kernel/drivers/media/i2c/cx25840 files:
+cx25840.ko 
+-e 
+Removing old /lib/modules/5.8.0-36-generic/kernel/drivers/media/usb/b2c2 files:
+b2c2-flexcop-usb.ko 
+-e 
+Removing old /lib/modules/5.8.0-36-generic/kernel/drivers/media/../staging/media/atomisp files:
+atomisp.ko pci/atomisp_gmin_platform.ko 
+-e 
+Removing old /lib/modules/5.8.0-36-generic/kernel/drivers/media/test-drivers/vivid files:
+vivid.ko 
+-e 
+Removing old /lib/modules/5.8.0-36-generic/kernel/drivers/media/usb/gspca/gl860 files:
+gspca_gl860.ko 
+-e 
+Removing old /lib/modules/5.8.0-36-generic/kernel/drivers/media/radio files:
+radio-raremono.ko radio-tea5764.ko radio-shark.ko radio-maxiradio.ko radio-wl1273.ko dsbr100.ko tef6862.ko shark2.ko radio-keene.ko radio-ma901.ko saa7706h.ko radio-si476x.ko radio-mr800.ko tea575x.ko 
+-e 
+Removing old /lib/modules/5.8.0-36-generic/kernel/drivers/media/../staging/media/atomisp/i2c files:
+atomisp-gc2235.ko atomisp-libmsrlisthelper.ko atomisp-gc0310.ko atomisp-ov2680.ko atomisp-mt9m114.ko atomisp-ov2722.ko atomisp-lm3554.ko 
+-e 
+Removing old /lib/modules/5.8.0-36-generic/kernel/drivers/media/pci/ddbridge files:
+ddbridge.ko ddbridge-dummy-fe.ko 
+-e 
+Removing old /lib/modules/5.8.0-36-generic/kernel/drivers/media/pci/ivtv files:
+ivtv-alsa.ko ivtvfb.ko ivtv.ko 
+-e 
+Removing old /lib/modules/5.8.0-36-generic/kernel/drivers/media/usb/go7007 files:
+go7007.ko go7007-loader.ko s2250.ko go7007-usb.ko 
+-e 
+Removing old /lib/modules/5.8.0-36-generic/kernel/drivers/media/usb/au0828 files:
+au0828.ko 
+-e 
+Removing old /lib/modules/5.8.0-36-generic/kernel/drivers/media/pci/ttpci files:
+budget-patch.ko budget-core.ko dvb-ttpci.ko ttpci-eeprom.ko budget-av.ko budget-ci.ko budget.ko 
+-e 
+Removing old /lib/modules/5.8.0-36-generic/kernel/drivers/media/cec/core files:
+cec.ko 
+-e 
+Removing old /lib/modules/5.8.0-36-generic/kernel/drivers/media/usb/usbtv files:
+usbtv.ko 
+-e 
+Removing old /lib/modules/5.8.0-36-generic/kernel/drivers/media/cec/usb/rainshadow files:
+rainshadow-cec.ko 
+-e 
+Removing old /lib/modules/5.8.0-36-generic/kernel/drivers/media/spi files:
+cxd2880-spi.ko gs1662.ko 
+-e 
+Removing old /lib/modules/5.8.0-36-generic/kernel/drivers/media/usb/msi2500 files:
+msi2500.ko 
+-e 
+Removing old /lib/modules/5.8.0-36-generic/kernel/drivers/media/pci/pt3 files:
+earth-pt3.ko 
+-e 
+Removing old /lib/modules/5.8.0-36-generic/kernel/drivers/media/platform/cadence files:
+cdns-csi2rx.ko cdns-csi2tx.ko 
+-e 
+Removing old /lib/modules/5.8.0-36-generic/kernel/drivers/media/cec/platform/seco files:
+seco-cec.ko 
+-e 
+Removing old /lib/modules/5.8.0-36-generic/kernel/drivers/media/i2c/m5mols files:
+m5mols.ko 
+-e 
+Removing old /lib/modules/5.8.0-36-generic/kernel/drivers/media/pci/mantis files:
+hopper.ko mantis_core.ko mantis.ko 
+-e 
+Removing old /lib/modules/5.8.0-36-generic/kernel/drivers/media/common/v4l2-tpg files:
+v4l2-tpg.ko 
+-e 
+Removing old /lib/modules/5.8.0-36-generic/kernel/drivers/media/pci/cx88 files:
+cx88xx.ko cx88-dvb.ko cx8802.ko cx8800.ko cx88-blackbird.ko cx88-vp3054-i2c.ko cx88-alsa.ko 
+-e 
+Removing old /lib/modules/5.8.0-36-generic/kernel/drivers/media/usb/stk1160 files:
+stk1160.ko 
+-e 
+Removing old /lib/modules/5.8.0-36-generic/kernel/drivers/media/platform files:
+m2m-deinterlace.ko aspeed-video.ko via-camera.ko 
+-e 
+Removing old /lib/modules/5.8.0-36-generic/kernel/drivers/media/pci/solo6x10 files:
+solo6x10.ko 
+-e 
+Removing old /lib/modules/5.8.0-36-generic/kernel/drivers/media/common/b2c2 files:
+b2c2-flexcop.ko 
+-e 
+Removing old /lib/modules/5.8.0-36-generic/kernel/drivers/media/pci/saa7164 files:
+saa7164.ko 
+-e 
+Removing old /lib/modules/5.8.0-36-generic/kernel/drivers/media/common/siano files:
+smsmdtv.ko smsdvb.ko 
+-e 
+Removing old /lib/modules/5.8.0-36-generic/kernel/drivers/media/pci/dm1105 files:
+dm1105.ko 
+-e 
+Removing old /lib/modules/5.8.0-36-generic/kernel/drivers/media/pci/cx18 files:
+cx18.ko cx18-alsa.ko 
+-e 
+Removing old /lib/modules/5.8.0-36-generic/kernel/drivers/media/v4l2-core files:
+videobuf-vmalloc.ko videodev.ko v4l2-fwnode.ko v4l2-mem2mem.ko tuner.ko v4l2-flash-led-class.ko videobuf-dma-sg.ko videobuf-core.ko v4l2-dv-timings.ko 
+-e 
+Removing old /lib/modules/5.8.0-36-generic/kernel/drivers/media/platform/marvell-ccic files:
+cafe_ccic.ko mcam-core.ko 
+-e 
+Removing old /lib/modules/5.8.0-36-generic/kernel/drivers/media/usb/hdpvr files:
+hdpvr.ko 
+-e 
+Removing old /lib/modules/5.8.0-36-generic/kernel/drivers/media/test-drivers files:
+vim2m.ko 
+-e 
+Removing old /lib/modules/5.8.0-36-generic/kernel/drivers/media/usb/as102 files:
+dvb-as102.ko 
+-e 
+Removing old /lib/modules/5.8.0-36-generic/kernel/drivers/media/usb/dvb-usb files:
+dvb-usb-dib0700.ko dvb-usb-dw2102.ko dvb-usb-vp7045.ko dvb-usb-cxusb.ko dvb-usb.ko dvb-usb-opera.ko dvb-usb-ttusb2.ko dvb-usb-pctv452e.ko dvb-usb-gp8psk.ko dvb-usb-dtv5100.ko dvb-usb-nova-t-usb2.ko dvb-usb-cinergyT2.ko dvb-usb-vp702x.ko dvb-usb-umt-010.ko dvb-usb-dibusb-mc-common.ko dvb-usb-af9005.ko dvb-usb-af9005-remote.ko dvb-usb-m920x.ko dvb-usb-az6027.ko dvb-usb-dibusb-common.ko dvb-usb-technisat-usb2.ko dvb-usb-dibusb-mb.ko dvb-usb-digitv.ko dvb-usb-dibusb-mc.ko dvb-usb-a800.ko dvb-usb-dtt200u.ko 
+-e 
+Removing obsolete files from /lib/modules/5.8.0-36-generic/kernel/drivers/media/common:
+
+
+Installing kernel modules under /lib/modules/5.8.0-36-generic/kernel/drivers/media/:
+	pci/cx23885/: altera-ci.ko cx23885.ko 
+	pci/meye/: meye.ko 
+	usb/pwc/: pwc.ko 
+	firewire/: firedtv.ko 
+	platform/ti-vpe/: ti-csc.ko ti-sc.ko ti-vpdma.ko 
+	pci/pluto2/: pluto2.ko 
+	usb/gspca/stv06xx/: gspca_stv06xx.ko 
+	test-drivers/vidtv/: dvb-vidtv-bridge.ko dvb-vidtv-demod.ko dvb-vidtv-tuner.ko 
+	mmc/siano/: smssdio.ko 
+	radio/si470x/: radio-si470x-usb.ko radio-si470x-i2c.ko radio-si470x-common.ko 
+	pci/smipcie/: smipcie.ko 
+	test-drivers/vimc/: vimc.ko 
+	pci/ngene/: ngene.ko 
+	rc/: ir-sony-decoder.ko serial_ir.ko winbond-cir.ko 
+		imon.ko ir-jvc-decoder.ko xbox_remote.ko 
+		imon_raw.ko ir-xmp-decoder.ko mceusb.ko 
+		streamzap.ko ir-nec-decoder.ko rc-loopback.ko 
+		redrat3.ko ene_ir.ko ir-rc5-decoder.ko 
+		ir-sanyo-decoder.ko fintek-cir.ko rc-core.ko 
+		ir-imon-decoder.ko iguanair.ko ir-sharp-decoder.ko 
+		igorplugusb.ko ttusbir.ko ir-rc6-decoder.ko 
+		ir-rcmm-decoder.ko ir-mce_kbd-decoder.ko ir_toy.ko 
+		sir_ir.ko ati_remote.ko ite-cir.ko 
+		nuvoton-cir.ko 
+	usb/uvc/: uvcvideo.ko 
+	common/: tveeprom.ko cx2341x.ko cypress_firmware.ko 
+	dvb-frontends/cxd2880/: cxd2880.ko 
+	pci/pt1/: earth-pt1.ko 
+	usb/pvrusb2/: pvrusb2.ko 
+	cec/i2c/: ch7322.ko 
+	usb/hackrf/: hackrf.ko 
+	i2c/: st-mipid02.ko mt9v111.ko saa7115.ko 
+		tda9840.ko ov2680.ko tc358743.ko 
+		ov13858.ko tvp5150.ko bt856.ko 
+		imx355.ko cs5345.ko sony-btf-mpx.ko 
+		dw9807-vcm.ko adp1653.ko adv7842.ko 
+		ks0127.ko sr030pc30.ko ov7670.ko 
+		saa7127.ko vpx3220.ko s5k6aa.ko 
+		tea6415c.ko ths7303.ko saa717x.ko 
+		tda1997x.ko ov2659.ko lm3646.ko 
+		uda1342.ko rdacm20-camera_module.ko s5k4ecgx.ko 
+		tvp7002.ko s5k6a3.ko ml86v7667.ko 
+		ov2685.ko ov7251.ko max2175.ko 
+		m52790.ko bt819.ko ov772x.ko 
+		imx290.ko ov8865.ko ov2740.ko 
+		saa6752hs.ko tw9906.ko ov2640.ko 
+		noon010pc30.ko saa7110.ko ov8856.ko 
+		imx319.ko aptina-pll.ko ov9734.ko 
+		ov5648.ko adv7183.ko adv7511-v4l2.ko 
+		cs3308.ko mt9p031.ko mt9m111.ko 
+		ov5647.ko vs6624.ko wm8739.ko 
+		tvaudio.ko tw9910.ko mt9v011.ko 
+		wm8775.ko ir-kbd-i2c.ko adv7180.ko 
+		ak881x.ko ths8200.ko adv7170.ko 
+		ov5670.ko imx219.ko adv7604.ko 
+		ov9650.ko ak7375.ko hi556.ko 
+		mt9t112.ko ad9389b.ko cs53l32a.ko 
+		ov7640.ko ov7740.ko mt9t001.ko 
+		saa7185.ko msp3400.ko adv7393.ko 
+		upd64031a.ko rj54n1cb0c.ko mt9m032.ko 
+		ov5675.ko dw9714.ko video-i2c.ko 
+		imx214.ko vp27smpx.ko saa6588.ko 
+		mt9m001.ko tvp514x.ko tlv320aic23b.ko 
+		mt9v032.ko adv7175.ko ov6650.ko 
+		tw2804.ko imx258.ko tw9903.ko 
+		ad5820.ko bt866.ko adv7343.ko 
+		s5k5baf.ko ccs-pll.ko tea6420.ko 
+		ov9640.ko ov02a10.ko ov5695.ko 
+		dw9768.ko upd64083.ko lm3560.ko 
+		tda7432.ko 
+	usb/airspy/: airspy.ko 
+	pci/dt3155/: dt3155.ko 
+	pci/saa7146/: hexium_gemini.ko hexium_orion.ko mxb.ko 
+	pci/tbsecp3/: tbsecp3.ko 
+	usb/stkwebcam/: stkwebcam.ko 
+	cec/usb/pulse8/: pulse8-cec.ko 
+	../misc/altera-stapl/: altera-stapl.ko 
+	radio/wl128x/: fm_drv.ko 
+	usb/gspca/: gspca_pac7311.ko gspca_sq930x.ko gspca_cpia1.ko 
+		gspca_jeilinj.ko gspca_stk1135.ko gspca_spca501.ko 
+		gspca_tv8532.ko gspca_kinect.ko gspca_spca505.ko 
+		gspca_se401.ko gspca_touptek.ko gspca_sonixj.ko 
+		gspca_sunplus.ko gspca_main.ko gspca_spca561.ko 
+		gspca_etoms.ko gspca_sq905.ko gspca_stk014.ko 
+		gspca_finepix.ko gspca_xirlink_cit.ko gspca_zc3xx.ko 
+		gspca_stv0680.ko gspca_sonixb.ko gspca_vicam.ko 
+		gspca_vc032x.ko gspca_sn9c2028.ko gspca_spca508.ko 
+		gspca_pac7302.ko gspca_pac207.ko gspca_mr97310a.ko 
+		gspca_nw80x.ko gspca_spca506.ko gspca_topro.ko 
+		gspca_sq905c.ko gspca_jl2005bcd.ko gspca_spca1528.ko 
+		gspca_konica.ko gspca_ov534.ko gspca_benq.ko 
+		gspca_spca500.ko gspca_ov519.ko gspca_mars.ko 
+		gspca_conex.ko gspca_t613.ko gspca_ov534_9.ko 
+		gspca_sn9c20x.ko gspca_dtcs033.ko 
+	pci/cobalt/: cobalt.ko 
+	usb/em28xx/: em28xx-dvb.ko em28xx-v4l.ko em28xx.ko 
+		em28xx-alsa.ko em28xx-rc.ko 
+	common/videobuf2/: videobuf2-vmalloc.ko videobuf2-dvb.ko videobuf2-memops.ko 
+		videobuf2-dma-sg.ko videobuf2-dma-contig.ko videobuf2-v4l2.ko 
+		videobuf2-common.ko 
+	usb/zr364xx/: zr364xx.ko 
+	usb/siano/: smsusb.ko 
+	tuners/: r820t.ko tda18271.ko tuner-simple.ko 
+		tda827x.ko mxl301rf.ko e4000.ko 
+		tda18273.ko mxl5007t.ko si2157.ko 
+		tda18250.ko mt2060.ko tda18212.ko 
+		tua9001.ko mc44s803.ko mt2266.ko 
+		mt2131.ko tda8290.ko tda9887.ko 
+		fc0012.ko qm1d1c0042.ko xc5000.ko 
+		tea5767.ko stv6120.ko tda18218.ko 
+		it913x.ko xc4000.ko qm1d1b0004.ko 
+		mt20xx.ko mxl5005s.ko max2165.ko 
+		tuner-types.ko m88rs6000t.ko fc0013.ko 
+		rda5816.ko tuner-xc2028.ko av201x.ko 
+		fc2580.ko msi001.ko qt1010.ko 
+		mxl603.ko tea5761.ko r848.ko 
+		mt2063.ko fc0011.ko 
+	usb/cx231xx/: cx231xx-dvb-ci.ko cx231xx.ko cx231xx-alsa.ko 
+	usb/dvb-usb-v2/: dvb-usb-anysee.ko dvb-usb-af9015.ko mxl111sf-tuner.ko 
+		dvb-usb-mxl111sf.ko mxl111sf-demod.ko dvb-usb-au6610.ko 
+		dvb_usb_v2.ko dvb-usb-gl861.ko zd1301.ko 
+		dvb-usb-rtl28xxu.ko dvb-usb-dvbsky.ko dvb-usb-lmedm04.ko 
+		dvb-usb-az6007.ko dvb-usb-af9035.ko dvb-usb-ce6230.ko 
+		dvb-usb-ec168.ko 
+	pci/tw686x/: tw686x.ko 
+	pci/tw68/: tw68.ko 
+	pci/netup_unidvb/: netup-unidvb.ko 
+	pci/cx25821/: cx25821.ko cx25821-alsa.ko 
+	usb/ttusb-dec/: ttusbdecfe.ko ttusb_dec.ko 
+	mc/: mc.ko 
+	i2c/s5c73m3/: s5c73m3.ko 
+	usb/ttusb-budget/: dvb-ttusb-budget.ko 
+	usb/cpia2/: cpia2.ko 
+	common/saa7146/: saa7146_vv.ko saa7146.ko 
+	pci/tw5864/: tw5864.ko 
+	usb/gspca/m5602/: gspca_m5602.ko 
+	pci/tbsmod/: tbs_pcie-mod.ko 
+	usb/tm6000/: tm6000-alsa.ko tm6000-dvb.ko tm6000.ko 
+	dvb-core/: dvb-core.ko 
+	usb/s2255/: s2255drv.ko 
+	radio/si4713/: radio-usb-si4713.ko si4713.ko radio-platform-si4713.ko 
+	rc/keymaps/: rc-avermedia-rm-ks.ko rc-msi-digivox-ii.ko rc-fusionhdtv-mce.ko 
+		rc-norwood.ko rc-it913x-v2.ko rc-pinnacle-color.ko 
+		rc-npgtech.ko rc-vega-s9x.ko rc-terratec-slim-2.ko 
+		rc-avermedia-m733a-rm-k6.ko rc-hisi-poplar.ko rc-su3000.ko 
+		rc-real-audio-220-32-keys.ko rc-encore-enltv.ko rc-kaiomy.ko 
+		rc-rc6-mce.ko rc-dvico-mce.ko rc-msi-tvanywhere.ko 
+		rc-medion-x10-digitainer.ko rc-winfast-usbii-deluxe.ko rc-dib0700-nec.ko 
+		rc-tanix-tx3mini.ko rc-astrometa-t2hybrid.ko rc-kworld-pc150u.ko 
+		rc-pv951.ko rc-total-media-in-hand-02.ko rc-terratec-cinergy-xs.ko 
+		rc-dntv-live-dvb-t.ko rc-behold-columbus.ko rc-wetek-hub.ko 
+		rc-lme2510.ko rc-imon-pad.ko rc-anysee.ko 
+		rc-alink-dtu-m.ko rc-khadas.ko rc-encore-enltv-fm53.ko 
+		rc-terratec-slim.ko rc-videomate-tv-pvr.ko rc-avermedia-dvbt.ko 
+		rc-snapstream-firefly.ko rc-tt-1500.ko rc-kworld-plus-tv-analog.ko 
+		rc-xbox-dvd.ko rc-gotview7135.ko rc-cec.ko 
+		rc-evga-indtube.ko rc-gadmei-rm008z.ko rc-khamsin.ko 
+		rc-kworld-315u.ko rc-ati-tv-wonder-hd-600.ko rc-dtt200u.ko 
+		rc-pctv-sedna.ko rc-apac-viewcomp.ko rc-budget-ci-old.ko 
+		rc-ati-x10.ko rc-twinhan-dtv-cab-ci.ko rc-winfast.ko 
+		rc-pixelview-002t.ko rc-d680-dmb.ko rc-terratec-cinergy-s2-dual.ko 
+		rc-eztv.ko rc-videomate-m1f.ko rc-pixelview-new.ko 
+		rc-nec-terratec-cinergy-xs.ko rc-em-terratec.ko rc-total-media-in-hand.ko 
+		rc-powercolor-real-angel.ko rc-hisi-tv-demo.ko rc-medion-x10-or2x.ko 
+		rc-leadtek-y04g0051.ko rc-proteus-2309.ko rc-dntv-live-dvbt-pro.ko 
+		rc-azurewave-ad-tu700.ko rc-technisat-ts35.ko rc-twinhan1027.ko 
+		rc-dib0700-rc5.ko rc-msi-tvanywhere-plus.ko rc-avermedia.ko 
+		rc-dvbsky.ko rc-manli.ko rc-pixelview-mk12.ko 
+		rc-imon-rsc.ko rc-hauppauge.ko rc-odroid.ko 
+		rc-medion-x10.ko rc-dvico-portable.ko rc-asus-ps3-100.ko 
+		rc-tbs-nec.ko rc-dm1105-nec.ko rc-flyvideo.ko 
+		rc-streamzap.ko rc-pixelview.ko rc-zx-irdec.ko 
+		rc-iodata-bctv7e.ko rc-msi-digivox-iii.ko rc-adstech-dvb-t-pci.ko 
+		rc-genius-tvgo-a11mce.ko rc-terratec-cinergy-s2-hd.ko rc-it913x-v1.ko 
+		rc-wetek-play2.ko rc-flydvb.ko rc-imon-mce.ko 
+		rc-pinnacle-pctv-hd.ko rc-cinergy-1400.ko rc-tevii-nec.ko 
+		rc-cinergy.ko rc-beelink-gs1.ko rc-avertv-303.ko 
+		rc-behold.ko rc-nebula.ko rc-tivo.ko 
+		rc-tango.ko rc-avermedia-cardbus.ko rc-tanix-tx5max.ko 
+		rc-pine64.ko rc-avermedia-m135a.ko rc-asus-pc39.ko 
+		rc-pinnacle-grey.ko rc-terratec-cinergy-c-pci.ko rc-purpletv.ko 
+		rc-x96max.ko rc-digittrade.ko rc-digitalnow-tinytwin.ko 
+		rc-videostrong-kii-pro.ko rc-reddo.ko rc-delock-61959.ko 
+		rc-encore-enltv2.ko rc-trekstor.ko rc-geekbox.ko 
+		rc-videomate-s350.ko rc-technisat-usb2.ko rc-avermedia-a16d.ko 
+	dvb-frontends/: s5h1411.ko gp8psk-fe.ko rtl2832.ko 
+		avl6882.ko si2168.ko dib7000m.ko 
+		nxt200x.ko dib3000mb.ko rtl2832_sdr.ko 
+		isl6421.ko zl10353.ko af9013.ko 
+		tas2101.ko sp887x.ko cx22702.ko 
+		mn88473.ko drxk.ko stv0900.ko 
+		drxd.ko stv0297.ko si21xx.ko 
+		si2165.ko tda10086.ko zl10036.ko 
+		stv091x.ko tda826x.ko itd1000.ko 
+		ec100.ko ds3000.ko tda8083.ko 
+		helene.ko au8522_decoder.ko dibx000_common.ko 
+		stb0899.ko m88rs6060.ko cx24123.ko 
+		mtv23x.ko lgdt3306a.ko stv6110x.ko 
+		m88ds3103.ko ix2505v.ko mt352.ko 
+		cxd2841er.ko mxl58x.ko ts2020.ko 
+		tbs_priv.ko or51211.ko tc90522.ko 
+		au8522_dig.ko isl6405.ko bcm3510.ko 
+		cx24110.ko lnbp22.ko zd1301_demod.ko 
+		mn88472.ko mb86a16.ko tda10023.ko 
+		lg2160.ko cx24113.ko stv6111.ko 
+		isl6422.ko stv6110.ko m88rs2000.ko 
+		rtl2830.ko nxt6000.ko dib3000mc.ko 
+		cx22700.ko sp2.ko atbm8830.ko 
+		or51132.ko tas2971.ko stb6100.ko 
+		gx1503.ko cx24120.ko lnbp21.ko 
+		au8522_common.ko af9033.ko si2183.ko 
+		dib0070.ko ves1820.ko stv0367.ko 
+		s5h1409.ko mb86a20s.ko s5h1432.ko 
+		lgs8gl5.ko lgdt3305.ko dvb_dummy_fe.ko 
+		lnbh29.ko horus3a.ko a8293.ko 
+		mt312.ko tda10071.ko dib0090.ko 
+		s5h1420.ko stv0288.ko ascot2e.ko 
+		mn88436.ko ves1x93.ko lgdt330x.ko 
+		tda665x.ko stb6000.ko mxl5xx.ko 
+		cx24117.ko cx24116.ko cxd2099.ko 
+		lgs8gxx.ko tda1004x.ko tua6100.ko 
+		stv0910.ko sp8870.ko as102_fe.ko 
+		l64781.ko tda18271c2dd.ko gx1133.ko 
+		dvb-pll.ko stv090x.ko isl6423.ko 
+		cxd2820r.ko lnbh25.ko stv0299.ko 
+		s921.ko dib7000p.ko dib9000.ko 
+		tda10048.ko tda10021.ko mn88443x.ko 
+		tda8261.ko dib8000.ko zl10039.ko 
+	i2c/et8ek8/: et8ek8.ko 
+	pci/bt8xx/: dvb-bt8xx.ko bttv.ko dst_ca.ko 
+		bt878.ko dst.ko 
+	pci/b2c2/: b2c2-flexcop-pci.ko 
+	dvb-frontends/drx39xyj/: drx39xyj.ko 
+	pci/saa7134/: saa7134-empress.ko saa7134-alsa.ko saa7134.ko 
+		saa7134-dvb.ko saa7134-go7007.ko 
+	test-drivers/vicodec/: vicodec.ko 
+	i2c/cx25840/: cx25840.ko 
+	usb/b2c2/: b2c2-flexcop-usb.ko 
+	test-drivers/vivid/: vivid.ko 
+	usb/gspca/gl860/: gspca_gl860.ko 
+	radio/: radio-raremono.ko radio-tea5764.ko radio-shark.ko 
+		radio-maxiradio.ko radio-wl1273.ko dsbr100.ko 
+		tef6862.ko shark2.ko radio-keene.ko 
+		radio-ma901.ko saa7706h.ko radio-si476x.ko 
+		radio-mr800.ko tea575x.ko 
+	pci/ddbridge/: ddbridge.ko ddbridge-dummy-fe.ko 
+	pci/ivtv/: ivtv-alsa.ko ivtvfb.ko ivtv.ko 
+	usb/go7007/: go7007.ko go7007-loader.ko s2250.ko 
+		go7007-usb.ko 
+	usb/au0828/: au0828.ko 
+	pci/saa716x/: saa716x_hybrid.ko saa716x_core.ko saa716x_tbs-dvb.ko 
+	pci/ttpci/: budget-patch.ko budget-core.ko dvb-ttpci.ko 
+		ttpci-eeprom.ko budget-av.ko budget-ci.ko 
+		budget.ko 
+	cec/core/: cec.ko 
+	usb/usbtv/: usbtv.ko 
+	cec/usb/rainshadow/: rainshadow-cec.ko 
+	spi/: cxd2880-spi.ko gs1662.ko 
+	usb/msi2500/: msi2500.ko 
+	pci/pt3/: earth-pt3.ko 
+	platform/cadence/: cdns-csi2rx.ko cdns-csi2tx.ko 
+	cec/platform/seco/: seco-cec.ko 
+	i2c/m5mols/: m5mols.ko 
+	pci/mantis/: hopper.ko mantis_core.ko mantis.ko 
+	pci/tbscapture/: tbs_pcie-dvb.ko 
+	common/v4l2-tpg/: v4l2-tpg.ko 
+	pci/cx88/: cx88xx.ko cx88-dvb.ko cx8802.ko 
+		cx8800.ko cx88-blackbird.ko cx88-vp3054-i2c.ko 
+		cx88-alsa.ko 
+	usb/stk1160/: stk1160.ko 
+	platform/: m2m-deinterlace.ko aspeed-video.ko via-camera.ko 
+	pci/solo6x10/: solo6x10.ko 
+	common/b2c2/: b2c2-flexcop.ko 
+	pci/saa7164/: saa7164.ko 
+	common/siano/: smsmdtv.ko smsdvb.ko 
+	pci/dm1105/: dm1105.ko 
+	dvb-frontends/stid135/: stid135.ko 
+	pci/cx18/: cx18.ko cx18-alsa.ko 
+	v4l2-core/: videobuf-vmalloc.ko videodev.ko v4l2-fwnode.ko 
+		v4l2-mem2mem.ko tuner.ko v4l2-flash-led-class.ko 
+		videobuf-dma-sg.ko videobuf-dma-contig.ko v4l2-jpeg.ko 
+		videobuf-core.ko v4l2-dv-timings.ko 
+	platform/marvell-ccic/: cafe_ccic.ko mcam-core.ko 
+	usb/hdpvr/: hdpvr.ko 
+	i2c/ccs/: ccs.ko 
+	pci/tbsci/: tbs_pcie-ci.ko 
+	test-drivers/: vim2m.ko 
+	usb/as102/: dvb-as102.ko 
+	usb/dvb-usb/: dvb-usb-dib0700.ko dvb-usb-dw2102.ko dvb-usb-vp7045.ko 
+		dvb-usb-cxusb.ko dvb-usb-tbs5220.ko dvb-usb.ko 
+		dvb-usb-opera.ko dvb-usb-tbs5925.ko dvb-usb-tbs5580.ko 
+		dvb-usb-tbs5922se.ko dvb-usb-ttusb2.ko dvb-usb-pctv452e.ko 
+		dvb-usb-gp8psk.ko dvb-usb-tbsqbox.ko dvb-usb-dtv5100.ko 
+		dvb-usb-nova-t-usb2.ko dvb-usb-cinergyT2.ko dvb-usb-tbsqbox2ci.ko 
+		dvb-usb-vp702x.ko dvb-usb-umt-010.ko dvb-usb-tbs5520se.ko 
+		dvb-usb-dibusb-mc-common.ko dvb-usb-af9005.ko dvb-usb-tbs5590.ko 
+		dvb-usb-tbs5927.ko dvb-usb-af9005-remote.ko dvb-usb-tbsqboxs2.ko 
+		dvb-usb-m920x.ko dvb-usb-az6027.ko dvb-usb-dibusb-common.ko 
+		dvb-usb-technisat-usb2.ko dvb-usb-dibusb-mb.ko dvb-usb-digitv.ko 
+		dvb-usb-tbsqbox22.ko dvb-usb-tbsqbox2.ko dvb-usb-tbs5520.ko 
+		dvb-usb-tbs5301.ko dvb-usb-tbs5880.ko dvb-usb-dibusb-mc.ko 
+		dvb-usb-a800.ko dvb-usb-tbs5881.ko dvb-usb-dtt200u.ko 
+/sbin/depmod -a 5.8.0-36-generic 
+make -C firmware install
+make[2]: Entering directory '/home/tbs/media_build/v4l/firmware'
+Installing firmwares at /lib/firmware: 
+make[2]: Leaving directory '/home/tbs/media_build/v4l/firmware'
+make[1]: Leaving directory '/home/tbs/media_build/v4l'
+
